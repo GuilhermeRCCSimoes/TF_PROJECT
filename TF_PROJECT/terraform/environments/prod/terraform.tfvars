@@ -1,0 +1,9 @@
+cluster_name   = "prod-cluster"
+node_count     = 5
+node_size      = "t3.large"
+namespace      = "prod"
+odoo_image     = "odoo:stable"
+replicas       = 3
+service_type   = "LoadBalancer"
+backend_bucket = "my-prod-bucket"
+backend_region = "us-east-2"

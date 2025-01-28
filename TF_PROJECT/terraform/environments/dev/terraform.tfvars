@@ -1,0 +1,9 @@
+cluster_name   = "dev-cluster"
+node_count     = 2
+node_size      = "t3.medium"
+namespace      = "dev"
+odoo_image     = "odoo:latest"
+replicas       = 1
+service_type   = "ClusterIP"
+backend_bucket = "my-dev-bucket"
+backend_region = "us-west-1"

@@ -1,0 +1,9 @@
+cluster_name   = "qa-cluster"
+node_count     = 3
+node_size      = "t3.medium"
+namespace      = "qa"
+odoo_image     = "odoo:latest"
+replicas       = 2
+service_type   = "ClusterIP"
+backend_bucket = "my-qa-bucket"
+backend_region = "us-east-1"
